@@ -1,0 +1,43 @@
+---
+title: '6060 Quiz 3'
+author: "Marian Pitel"
+date: "November 1, 2016"
+output:
+  pdf_document:
+    number_sections: yes
+    toc_depth: 3
+  html_document:
+    toc_depth: '3'
+---
+
+```{r,echo=FALSE,message=FALSE, warning=FALSE}
+# Code goes in blocks like this
+
+# load libraries
+library(apaTables)
+library(tidyverse)
+library(cocor)
+library(predictionInterval)
+```
+
+# Question 1 
+The result of a comparison between the agreeableness-conscientiousness correlation and the extraversion-openness correlation was $\Delta r$ = -.01, 95% CI [-.11,.09] *N* = 759. This confidence interval suggests at either extraversion-openness is a  slightly stronger correlation or that agreeableness-conscientiousness is a slightly stronger correlation. These data are not sufficient to tease apart which is of the two is more likely. 
+
+# Question 2
+The result of a comparison between the agreeableness-conscientiousness correlation and the agreeableness-extraversion correlation was $\Delta r$ = -.08, 95% CI [-.18,.02], *N* = 759. This confidence interval suggests at most small positive difference or a small-to-moderate negative difference between the two correlations. 
+
+# Question 3
+The result of a comparison between the agreeableness-conscientiousness correlation for men and the agreeableness-conscientiousness correlation for women was $\Delta r$ = .02, 95% CI [-.13,.17], *N* = 759. These data are only efficient to rule out a large positive or negative difference between the two correlations. 
+
+# Question 4
+The result of a comparison between the rating-raises correlation and the rating-critical correlation was $\Delta r$ = .04, 95% CI [.07,.79], *N* = 30. This confidence interval is quite long. These data are consistent with anywhere between a small to a large difference between the two correlations. 
+
+# Question 5
+The result of a comparison between the rating-raises correlation and the complaints-critical correlation was $\Delta r$ = .40, 95% CI [.02,.78], *N* = 30. This confidence interval is quite long. These data are consistent with anywhere between a small negative to a large positive difference between the two correlations. 
+
+# Question 6
+The result of a comparison between rating-raises correlation from our study and the rating-raises correlation from Researcher (2016) was $\Delta r$ = .56, 95% CI [.26,.76], p=.0008. Statistically, this means that we can rule out that the two correlations came from the same population. 
+
+# Question 7
+The correlation between ratings and privileges obtained in Table 1 came from a sample of 30 participants. We can rule out that a correlation of .03 from a sample of 3000 came from a different population. These data suggests that the rating-raises correlation is anywhere between weakly related or strongly related, depending on the population. 
+
